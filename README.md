@@ -108,25 +108,7 @@ The notebook demonstrates:
 - **Quality Assessment**: Evaluation of data completeness and accessibility patterns
 - **Professional Documentation**: Clear methodology and reproducible results
 
-## Repository Structure for GitHub
-
-For public GitHub hosting, the recommended minimal structure is:
-
-```
-eol-dataset-analysis/
-├── 00_eol_dataset_exploration.ipynb    # Main analysis notebook
-├── README.md                           # This description (renamed)
-└── requirements.txt                    # Python dependencies
-```
-
-### Preparing for GitHub
-
-1. **Create New Repository**: Initialize a new public repository for this specific analysis
-2. **Copy Key Files**: Include only the notebook and this description (as README.md)
-3. **Add Dependencies**: Create requirements.txt with necessary Python packages
-4. **Clean Notebook**: Ensure all cells run cleanly and outputs are preserved
-
-### Dependencies (requirements.txt)
+## Dependencies (requirements.txt)
 
 ```
 requests>=2.25.0
